@@ -1,6 +1,7 @@
 const component = require('./generators/component');
 const screen = require('./generators/screen');
 const network = require('./generators/network');
+const redux = require('./generators/redux');
 
 exports.cli = {
   _func: {
@@ -18,6 +19,16 @@ exports.cli = {
         arg: {
           required : true,
           desc : 'screen_name'
+        }
+      }
+    },
+    redux: {
+      _func: {
+        desc: 'Generate a redux',
+        run: redux.gen,
+        arg: {
+          required : true,
+          desc : 'redux_name'
         }
       }
     },
