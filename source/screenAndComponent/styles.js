@@ -1,12 +1,12 @@
 import { StyleSheet } from 'react-native';
 
-import { sizes } from 'app/config/styles';
-
 export default StyleSheet.create({
   container : {
-    flex: 1
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center'
   },
   text : {
-    fontSize : sizes.font.body
+    fontSize : 12
   }
 });
