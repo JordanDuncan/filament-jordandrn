@@ -1,6 +1,6 @@
 {
   "name": "filament-jordandrn",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Filament package for the jordand React Native template",
   "main": "index.js",
   "scripts": {
